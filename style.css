@@ -61,7 +61,7 @@ ul li a {
     width: 80vw; 
     background-color: black;
     margin-left: 22vw;
-    overflow-x: scroll;
+ 
 }
 
 .story {
@@ -85,10 +85,19 @@ ul li a {
 }
 
 #feed {
-    margin-left: 22vw; 
+    margin-left: 28vw; 
     padding: 20px;
-    width: 70vw; 
+    width: 40vw; 
     background-color: #121212;
+    align-items: center;
+
+}
+.post-img{
+    height: 800px;
+    width: 100%;
+    border-radius: 10px;
+    
+
 }
 
 .post {
@@ -96,34 +105,83 @@ ul li a {
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
-}
-
-#suggestions {
-    position: fixed;
-    right: 20px;
-    top: 100px;
-    width: 15vw;
-    background-color: black;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-#suggestions h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-#suggestions ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#suggestions li {
-    margin: 15px 0;
-}
-
-#suggestions li a {
+    align-items: center;
     color: white;
-    font-size: 16px;
-    text-decoration: none;
+}
+.perfil{
+    display: flex;
+    height: 70px;
+    width: 70px;
+
+   
+}
+ .perfil img{
+    height: 30px;
+    width: 30px;
+    border: 3px solid rgb(255, 0, 170);
+    border-radius: 50%;
+}
+.perfil p{
+    padding-left: 5px;
+}
+.post hr{
+margin-top: -20px;
+margin-bottom: 10px;
+}
+
+
+
+.post-content {
+    margin-top: 10px;
+}
+
+.post-content h2 {
+    color: #ddd;
+}
+
+.post-content p {
+    color: #999;
+}
+
+.post-bottom {
+    padding: 10px;
+    border-top: 1px solid #444;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.post-actions i {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.save-icon {
+    margin-left: auto;
+}
+
+.post-info {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.post-info p {
+    margin: 5px 0;
+}
+
+.comment-section {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
+
+.comment-section p {
+    font-style: italic;
+    color: #bbb;
 }
