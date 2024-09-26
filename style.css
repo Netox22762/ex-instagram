@@ -71,7 +71,9 @@ ul li a {
     margin: 0 10px;
     text-align: center;
 }
-
+main{
+    width: 70vw;
+}
 .story p {
     padding: 5px 0 0 0;
     font-size: 12px;
@@ -184,4 +186,67 @@ margin-bottom: 10px;
 .comment-section p {
     font-style: italic;
     color: #bbb;
+}
+.suggestions-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    color: white;
+    max-width: 300px;
+    position: fixed;
+
+}
+
+.suggestions-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #bbb;
+    margin-bottom: 15px;
+}
+
+.suggestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.suggestion-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.suggestion-text {
+    font-size: 14px;
+}
+
+.username {
+    font-weight: bold;
+    color: white;
+}
+
+.suggestion-action {
+    font-size: 12px;
+    color: #888;
+}
+
+.follow-btn {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.follow-btn:hover {
+    background-color: #007bb5;
 }
